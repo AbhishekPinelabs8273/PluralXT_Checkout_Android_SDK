@@ -1,0 +1,1 @@
+# PluralXT_Checkout_Android_SDK
