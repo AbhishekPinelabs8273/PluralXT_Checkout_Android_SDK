@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/l"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/primary_text_light"
+            android:textStyle="bold"
+            android:text="Merchant Id:"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="-10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMerchantId"
+            android:text="null"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/primary_text_light"
+            android:textStyle="bold"
+            android:text="Transaction Id:"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="-10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTransactionId"
+            android:text="null"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/primary_text_light"
+            android:textStyle="bold"
+            android:text="payment status:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/tvPaymentStatus"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textDirection="firstStrongRtl"
+            android:text="Unsuccessful"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/primary_text_light"
+            android:textStyle="bold"
+            android:text="Is back pressed:"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-10dp"
+            android:id="@+id/tvIsBackPressed"
+            android:text="No"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/primary_text_light"
+            android:textStyle="bold"
+            android:text="Error code:"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="-10dp"
+            android:id="@+id/tvErrorCode"
+            android:text="null"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/primary_text_light"
+            android:textStyle="bold"
+            android:text="Error Message:"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginRight="-10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvErrorMessage"
+            android:text="null"></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
